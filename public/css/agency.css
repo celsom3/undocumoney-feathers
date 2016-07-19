@@ -941,3 +941,41 @@ body {
 #contact * {
     z-index: 2;
 }
+
+
+.role{
+  display:block;
+  color: #a8a8a8;
+  font-style: italic;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+.social-button-group{
+  margin: 10px 0px;
+}
+
+.no-data{
+  text-align: center;
+  width: 100%;
+}
+
+#sticky-bar{
+  width: 100%;
+  height: auto;
+  position: fixed!important;
+  display: block;
+  bottom: 0px;
+  z-index: 10000;
+  background: black;
+  color:white;
+}
+
+#sticky-bar .sticky-option{
+  margin: 5px 10px;
+}
+
+.bill-example{
+  margin: 25px auto;
+}
